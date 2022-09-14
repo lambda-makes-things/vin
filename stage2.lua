@@ -29,6 +29,7 @@ Plug "sharkdp/fd"
 Plug "nvim-telescope/telescope.nvim"
 Plug "b0o/mapx.nvim"
 Plug 'kyazdani42/nvim-tree.lua'
+Plug 'goolord/alpha-nvim'
 
 vim.call('plug#end')
 
@@ -84,6 +85,9 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 
+
+-- alpha
+require'alpha'.setup(require'alpha.themes.dashboard'.config)
 
 -- Dracula config
 local dracula = require("dracula")
