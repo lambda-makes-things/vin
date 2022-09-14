@@ -17,13 +17,13 @@ echo "2. Installing plugins"
 sleep 2s
 mkdir ~/.config/nvim
 
-mv stage1.lua ~/.config/nvim/init.lua
+cp stage1.lua ~/.config/nvim/init.lua
 
 nvim +'PlugInstall' +qa
 
 echo "3. Installing final config"
 sleep 2s
 
-mv stage2.lua ~/.config/nvim/init.lua
+cp stage2.lua ~/.config/nvim/init.lua
 
 echo "Install finished!"
