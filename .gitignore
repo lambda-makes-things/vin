@@ -125,3 +125,6 @@ dmypy.json
 
 # MacOS funny haha
 .DS_Store
+
+# vim funny haha
+plug.vim
