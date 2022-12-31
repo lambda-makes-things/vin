@@ -8,7 +8,7 @@ Not related to nikbrunner's [vin](https://github.com/nikbrunner/vin)
 nvim-treesitter will auto install parsers for syntax highlighting when you open a file that does not have a parser installed for it, you will have to restart neovim after the install for the parser to work.
 
 ## Keybinds
-QQ will run the :q command two times, this is use full in some situtations.
+QQ will run the :q command two times, this is useful in some situtations.
 TT will open the file tree and direct focus to it.
 
 ## Installed Plugins
